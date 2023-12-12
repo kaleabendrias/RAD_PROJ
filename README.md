@@ -1,17 +1,23 @@
-#Readme
-To run the calc.py Python file, follow these steps:
+## Readme
 
-Open a terminal or command prompt.
-Navigate to the directory where cal.py is located.
-Type 
+**Running the calc.py Python file:**
+
+1. Open a terminal or command prompt.
+2. Navigate to the directory containing `cal.py`.
+3. Copy and paste the following command:
+
 ```bash
 python3 cal.py
+```
+4. Press Enter.
 
-and press Enter.
-To run the test_calc.py unittest file, follow these steps:
+**Running the test_calc.py unittest file:**
 
-Open a terminal or command prompt.
-Navigate to the directory where test_calc.py is located.
-Type 
+1. Open a terminal or command prompt.
+2. Navigate to the directory containing `test_calc.py`.
+3. Copy and paste the following command:
+
 ```bash
-python -m unittest test_calc.py and press Enter.
+python -m unittest test_calc.py
+```
+4. Press Enter.
