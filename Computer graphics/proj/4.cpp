@@ -56,7 +56,7 @@ void drawHouse() {
     glVertex2f(-0.1f, 0.0f);
   glEnd(); // Door handle
   glPushMatrix();
-    glTranslatef(0.4f, 0.3f, 0.0f);
+    glTranslatef(-0.04f, 0.2f, 0.0f);
     glutSolidSphere(0.05f, 10, 10); // Doorknob
   glPopMatrix();
 }
