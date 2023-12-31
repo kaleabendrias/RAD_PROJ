@@ -48,14 +48,14 @@ void drawCar() {
  
   // Draw wheels (circles with smaller circles inside)
   glPushMatrix(); // This saves the current matrix on the stack.
-    glTranslatef(-0.5f, -0.5f, 0.4f); //This translates the current matrix by the specified amount in the x, y, and z directions.
-    glutSolidSphere(0.35f, 10, 10); // This draws a solid sphere with the specified radius and number of slices and stacks.
+    glTranslatef(-0.5f, -0.5f, 0.9f); //This translates the current matrix by the specified amount in the x, y, and z directions.
+    glutSolidSphere(0.35f, 100, 100); // This draws a solid sphere with the specified radius and number of slices and stacks.
     glColor3f(1.0f, 1.0f, 1.0f); // This sets the current color to white.
-    glutSolidSphere(0.1f, 10, 10); // This draws a smaller solid sphere with the specified radius and number of slices and stacks inside the larger sphere.
+    // glutSolidSphere(0.1f, 10, 10); // This draws a smaller solid sphere with the specified radius and number of slices and stacks inside the larger sphere.
   glPopMatrix(); // This restores the current matrix from the stack.
   glPushMatrix();
     glTranslatef(0.5f, -0.5f, 0.4f);
-    glutSolidSphere(0.35f, 10, 10);
+    glutSolidSphere(0.35f, 100, 100);
     glColor3f(1.0f, 1.0f, 1.0f);
     glutSolidSphere(0.1f, 10, 10);
   glPopMatrix();
@@ -71,7 +71,7 @@ int main(int argc, char** argv) {
   glutInit(&argc, argv);
   glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB);
   glutInitWindowSize(640, 480);
-  glutCreateWindow("My Cute Car");
+  glutCreateWindow("Ford Car");
   glutDisplayFunc(display);
   glutMainLoop();
   return 0;
