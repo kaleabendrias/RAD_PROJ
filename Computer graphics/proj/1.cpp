@@ -9,34 +9,34 @@ void display() {
    glEnd();
 
    // Draw a line
-   glBegin(GL_LINES);
-   glVertex2f(-0.5, 0.0);
-   glVertex2f(0.5, -0.5);
-   glEnd();
+   // glBegin(GL_LINES);
+   // glVertex2f(-0.5, 0.0);
+   // glVertex2f(0.5, -0.5);
+   // glEnd();
 
    // Draw a triangle
-   glBegin(GL_TRIANGLES);
-   glVertex2f(-0.5, -0.5);
-   glVertex2f(0.5, -0.5);
-   glVertex2f(0.0, 0.5);
-   glEnd();
+   // glBegin(GL_TRIANGLES);
+   // glVertex2f(-0.5, -0.5);
+   // glVertex2f(0.5, -0.5);
+   // glVertex2f(0.0, 0.5);
+   // glEnd();
 
    // Draw a rectangle
-   glBegin(GL_QUADS);
-   glVertex2f(-0.5, -0.5);
-   glVertex2f(-0.5, 0.5);
-   glVertex2f(0.5, 0.5);
-   glVertex2f(0.5, -0.5);
-   glEnd();
+   // glBegin(GL_QUADS);
+   // glVertex2f(-0.5, -0.5);
+   // glVertex2f(-0.5, 0.5);
+   // glVertex2f(0.5, 0.5);
+   // glVertex2f(0.5, -0.5);
+   // glEnd();
 
    // Draw a polygon
-   glBegin(GL_POLYGON);
-   glVertex2f(-0.5, -0.5);
-   glVertex2f(-0.25, 0.25);
-   glVertex2f(0.25, 0.25);
-   glVertex2f(0.5, -0.5);
-   glVertex2f(0.0, -0.75);
-   glEnd();
+   // glBegin(GL_POLYGON);
+   // glVertex2f(-0.5, -0.5);
+   // glVertex2f(-0.25, 0.25);
+   // glVertex2f(0.25, 0.25);
+   // glVertex2f(0.5, -0.5);
+   // glVertex2f(0.0, -0.75);
+   // glEnd();
 
    glFlush();
 }

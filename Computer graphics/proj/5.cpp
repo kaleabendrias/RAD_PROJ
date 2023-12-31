@@ -15,7 +15,7 @@ void display() {
     glEnd();
 
     // Apply 2D transformations
-    glRotatef(60, 2, 1, 1); // Rotate by (60, 1, 1, 1)
+    glRotatef(60, 2, 1, 1); // Rotate by (60, 2, 1, 1)
     glTranslatef(0.2, 0.3, 0.0); // Translate by (0.2, 0.3, 0.0)
     glScalef(1.5, 1.5, 0.0); // Scale by (1.5, 1.5, 0.0)
 

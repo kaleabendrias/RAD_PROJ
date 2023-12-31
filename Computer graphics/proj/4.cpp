@@ -19,7 +19,7 @@ void drawHouse() {
   // Draw roof (triangle)
   glBegin(GL_TRIANGLES);
     glColor3fv(roofColor);
-    glVertex2f(0.0f, 0.7f);
+    glVertex2f(0.0f, 0.9f);
     glVertex2f(-0.5f, 0.5f);
     glVertex2f(0.5f, 0.5f);
   glEnd();
@@ -56,8 +56,8 @@ void drawHouse() {
     glVertex2f(-0.1f, 0.0f);
   glEnd(); // Door handle
   glPushMatrix();
-    glTranslatef(-0.04f, 0.2f, 0.0f);
-    glutSolidSphere(0.05f, 10, 10); // Doorknob
+    glTranslatef(-0.04f, 0.15f, 0.0f);
+    glutSolidSphere(0.02f, 10, 10); // Doorknob
   glPopMatrix();
 }
 
